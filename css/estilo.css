@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1024px) {
+    body{
+        background-color:#6a6666;
+        color: #fff;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+    
+    nav {
+        background-color: #333;
+    }
+    
+    .menu {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .menu li {
+        display: inline;
+    }
+    
+    .menu li a {
+        font-size: 24px;
+        display: inline-block;
+        color: white;
+        padding: 15px 20px;
+        text-decoration: none;
+    }
+    
+    .menu li a:hover {
+        background-color: rgb(255, 136, 0);
+    }
+    section {
+        padding: 20px;
+    }
+    
+    .sobre .container, .produtos .container, .contato .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .sobre img {
+        width: 200px 200px;
+        float: left;
+        margin-right: 5%;
+    }
+    .sobre h1{
+        padding-top: 5%;
+    }
+    .sobre p {
+        width: 50%;
+        float: left;
+        padding-top: 5%;
+    }
+    
+    .produtos .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .produto {
+        width: 15%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .produto img {
+            width: 200px ;
+            height: 200px;
+    }
+    .produto img:hover{
+        cursor: pointer;
+        width: 195px;
+        height: 195px;
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+        border-bottom: 10px;
+        border-color:  rgb(255, 136, 0);
+    }
+    .produto p:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: rgb(255, 136, 0);
+    }
+    .contato form {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+    }
+    .contato button{
+        width: 345px;
+        color: #fff;
+        border-radius: 5%;
+    }
+    .container-butto-form{
+        display: flex;
+    }
+    .contato .submit{
+        background-color: green;
+    }
+    .contato .reset{
+        background-color: red;
+    }
+    .contato ::placeholder{
+        border: none;
+        color:red;
+    }
+    .contato label {
+        margin-top: 10px;
+    }
+    .contato{
+        background-color:  rgba(255, 136, 0, 0.253);
+    }
+    
+    .contato input, .contato textarea, .contato button {
+        margin-top: 5px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .rodape{
+        padding-top: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #333;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    * {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    }
+    
+    body {
+    background-color: #6a6666;
+    color: #fff;
+    }
+    
+    header {
+    width: 100%;
+    }
+    
+    .banner img {
+    width: 100%;
+    height: auto;
+    }
+    
+    nav {
+    background-color: #333;
+    }
+    
+    .menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    }
+    
+    .menu li {
+    display: inline;
+    }
+    
+    .menu li a {
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    }
+    
+    .menu li a:hover {
+    background-color: rgb(255, 136, 0);
+    }
+    
+    section {
+    padding: 20px;
+    }
+    
+    .sobre .container, .produtos .container, .contato .container {
+    width: 90%;
+    margin: 0 auto;
+    }
+    .sobre{
+    text-align: justify;
+    background-color:rgb(111, 255, 0);
+    }
+    .sobre img{
+    padding-left: auto;
+    }
+    
+    .produtos .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .produto {
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .produto img {
+    width: 200px;
+    height: 200px;
+    }
+    
+    .produto img:hover {
+    cursor: pointer;
+    width: 195px;
+    height: 195px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    border-bottom: 10px;
+    border-color: rgb(255, 136, 0);
+    }
+    
+    .produto p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(255, 136, 0);
+    }
+    
+    .contato form {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .contato button {
+    width: 345px;
+    color: #fff;
+    border-radius: 5%;
+    }
+    
+    .container-butto-form {
+    display: flex;
+    }
+    
+    .contato .submit {
+    background-color: green;
+    }
+    
+    .contato .reset {
+    background-color: red;
+    }
+    
+    .contato ::placeholder {
+    border: none;
+    color: red;
+    }
+    
+    .contato label {
+    margin-top: 10px;
+    }
+    
+    .contato {
+    background-color: rgb(255, 136, 0);
+    }
+    
+    .contato input, .contato textarea, .contato button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    }
+    
+    .rodape {
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    }
+    }
+
+    @media screen and (max-width: 640px) {
+        * {
+        padding: 0;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+        }
+        
+        body {
+        background-color: #6a6666;
+        color: #fff;
+        }
+        
+        header {
+        width: 100%;
+        }
+        
+        .banner img {
+        width: 100%;
+        height: auto;
+        }
+        
+        nav {
+        background-color: #333;
+        }
+        
+        .menu {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+        }
+        
+        .menu li {
+        display: inline;
+        }
+        
+        .menu li a {
+        font-size: 18px;
+        display: inline-block;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        }
+        
+        .menu li a:hover {
+        background-color: rgb(255, 136, 0);
+        }
+        
+        section {
+        padding: 20px;
+        }
+        
+        .sobre .container, .produtos .container, .contato .container {
+        width: 90%;
+        margin: 0 auto;
+        }
+        .sobre{
+        text-align: justify;
+        background-color:rgb(255, 136, 0);
+        }
+        .sobre img{
+        display: none;
+        }
+        
+        .produtos .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        
+        .produto {
+        width: auto; 
+        margin-bottom: 20px;
+        }
+        
+        .produto img {
+        width: 150px;
+        height: 150px;
+        }
+        
+        .produto img:hover {
+        cursor: pointer;
+        width: 195px;
+        height: 195px;
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+        border-bottom: 10px;
+        border-color: rgb(255, 136, 0);
+        }
+        
+        .produto p:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: rgb(255, 136, 0);
+        }
+        
+        .contato form {
+        display: flex;
+        flex-direction: column;
+        }
+        
+        .contato button {
+        width: 345px;
+        color: #fff;
+        border-radius: 5%;
+        }
+        
+        .container-butto-form {
+        display: flex;
+        }
+        
+        .contato .submit {
+        background-color: green;
+        }
+        
+        .contato .reset {
+        background-color: red;
+        }
+        
+        .contato ::placeholder {
+        border: none;
+        color: red;
+        }
+        
+        .contato label {
+        margin-top: 10px;
+        }
+        
+        .contato {
+        background-color: rgb(255, 136, 0);
+        }
+        
+        .contato input, .contato textarea, .contato button {
+        margin-top: 5px;
+        padding: 10px;
+        font-size: 16px;
+        }
+        
+        .rodape {
+        padding-top: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #333;
+        }
+        }
